@@ -44,10 +44,3 @@ i = size.index(max(size))
 size[i] = 8
 print("After shearing, here is my flock")
 print(size)
-
-#2.6
-total = sum(size)
-money = total*2
-print()
-print("My flock has size in total: ", total)
-print("I would get", total, "* 2$ = ", money, "$")
