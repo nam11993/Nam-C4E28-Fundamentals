@@ -1,0 +1,33 @@
+1. Why should we use functions at all?
+- The function helps the program more organized and manageable, avoids having to repeat code to execute similar tasks,
+- It makes the code more compact and reusable
+
+2. How to define/declare a function?
+def <NAME>(<PARAMETERS>):
+    <STATEMENTS>
+
+3. How to call/use a function?
+<NAME>(<PARAMETERS>)
+
+4. What is return, why and how do we use it?
+Answer: 
+- The return statement is followed an expression. This expression will be evaluated and returned to the caller of calling this function.
+- If user don't use the return statement, the program will automate return value = NONE
+- How to use:
+def <NAME>( <PARAMETERS> ):
+    a = <STATEMENTS>
+    return a
+
+5. Do we have to use return in every function?
+Not necessary
+
+6. What are function arguments/parameters, why and how we use it?
+They are the input of the function, we give them specific value and we wil get specific result.
+
+7. How to use function from a different file other than our currently working file?
+a. 
+from file import function      library declaration      
+variable = function()          call the function
+b.
+import file                    library declaration
+variable = file.function()     call the function
