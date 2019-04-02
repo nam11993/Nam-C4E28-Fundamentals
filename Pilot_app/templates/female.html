@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    {% for females in female %}
+        <div>
+            <img src="../static/image/avatar-female.jpg" > <br>
+        <b>Ten:</b> {{females.name }} <br>
+        <b>Tuoi:</b> {{females.age }} <br>
+        <b>dia chi:</b> {{females.address }} <br>
+        <b>Tinh trang:</b> {{females.available }}
+        <div>
+        <hr>
+    {% endfor %}
+</body>
+</html>
