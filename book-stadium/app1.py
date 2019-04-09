@@ -1,11 +1,11 @@
 from xlrd import open_workbook
 
-wb = open_workbook('data_sanbong.xlsx')
+wb = open_workbook('datasb2.xlsx')
 for s in wb.sheets():
     #print 'Sheet:',s.name
     values = []
-    for row in range(s.nrows):
-        col_value = []
+    # for row in range(s.nrows):
+    #     col_value = []
         for col in range(s.ncols):
             value  = (s.cell(row,col).value)
             try : value = str(int(value))
